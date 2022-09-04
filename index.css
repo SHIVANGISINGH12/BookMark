@@ -7,6 +7,7 @@ body {
     background: rgba(255, 0, 89, 0.01);
 }
 
+
 input {
     width: 100%;
     padding: 5px;
@@ -27,6 +28,7 @@ button {
     transition: all 0.3s;
     position: relative;
     background: rgba(255, 0, 89, 0.5);
+    border-radius: 3px;
 }
 
 button::before {
@@ -46,6 +48,7 @@ button::before {
     border-top-color: rgba(255, 0, 89, 0.592);
     border-bottom-color: rgba(255, 0, 89, 0.592);
     transform: scale(0.1, 1);
+    border-radius: 3px;
 }
 
 
@@ -63,6 +66,7 @@ button::after {
     z-index: 1;
     transition: all 0.3s;
     background-color: rgba(255, 0, 89, 0.451);
+    border-radius: 3px;
 }
 button:hover::after {
     opacity: 0;
@@ -72,8 +76,10 @@ button:hover::after {
 
 ul {
     margin-top: 20px;
-    list-style: none;
+    list-style-type: none;
     padding-left: 0;
+    margin-left: 20px;
+    color: rgba(255, 0, 89, 0.592);
 }
 
 li {
