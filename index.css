@@ -26,7 +26,7 @@ button {
     color: rgb(8, 1, 1);
     transition: all 0.3s;
     position: relative;
-    background: rgba(255, 0, 89, 0.151);
+    background: rgba(255, 0, 89, 0.5);
 }
 
 button::before {
@@ -43,8 +43,8 @@ button::before {
     border-bottom-width: 1px;
     border-top-style: solid;
     border-bottom-style: solid;
-    border-top-color: rgba(28, 17, 17, 0.5);
-    border-bottom-color: rgba(28, 17, 17, 0.5);
+    border-top-color: rgba(255, 0, 89, 0.592);
+    border-bottom-color: rgba(255, 0, 89, 0.592);
     transform: scale(0.1, 1);
 }
 
